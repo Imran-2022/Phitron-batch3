@@ -1,16 +1,17 @@
 #include <stdio.h>
 
-int main() {
-    
+int main()
+{
+
     int N;
-    scanf("%d",&N);
-    for(int i=1;i<=N;i++){
-          printf("%d\t",i);
-        if(i%5==0){
-            printf("Yes\n");
-        }
-        else{
-            printf("No\n");
+    scanf("%d", &N);
+    int A[N];
+
+    for (int i = 0; i < N; i++)
+    {
+        scanf("%ld", &A[i]);
+        if(A[i]<=10){
+            printf("A[%d] = %d\n",i, A[i]);
         }
     }
     return 0;
