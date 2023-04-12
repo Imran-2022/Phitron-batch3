@@ -1,2 +1,2 @@
-7 5 3 1 
-the sum is 16
+3 1 
+the sum is 4
