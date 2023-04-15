@@ -1,8 +1,15 @@
 #include <stdio.h>
 int main()
 {
-    for (int i=0;i<=30;i++){
-        printf("%d\n",i);
+    int n;
+    while ((scanf("%d", &n)) != EOF)
+    {
+        if (n == 1)
+        {
+            break;
+        }
+        printf("%d \n", n);
     }
+
     return 0;
 }
