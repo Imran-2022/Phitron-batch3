@@ -2,13 +2,33 @@
 int main()
 {
     int n;
-    while ((scanf("%d", &n)) != EOF)
+    scanf("%d", &n);
+    int arr[n];
+    for (int i = 0; i < n; i++)
     {
-        if (n == 1)
-        {
-            break;
-        }
-        printf("%d \n", n);
+        scanf("%d", &arr[i]);
+    }
+    int m;
+    scanf("%d", &m);
+    int arr2[m];
+    for (int i = 0; i < n; i++)
+    {
+        scanf("%d", &arr2[i]);
+    }
+
+    int newarr[n + m];
+    for (int i = 0; i < n; i++)
+    {
+        newarr[i]=arr[i];
+    }
+    for (int i = n; i < m+n; i++)
+    {
+        newarr[i]=arr2[i];
+    }
+
+    for (int i = 0; i < n+m; i++)
+    {
+        printf("%d ", newarr[i]);
     }
 
     return 0;
