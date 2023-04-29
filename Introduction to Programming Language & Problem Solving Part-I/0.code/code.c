@@ -1,35 +1,25 @@
 #include <stdio.h>
+#include <string.h>
+
 int main()
 {
-    int n;
-    scanf("%d", &n);
-    int arr[n];
-    for (int i = 0; i < n; i++)
-    {
-        scanf("%d", &arr[i]);
-    }
-    int m;
-    scanf("%d", &m);
-    int arr2[m];
-    for (int i = 0; i < n; i++)
-    {
-        scanf("%d", &arr2[i]);
-    }
+    char ch1[11];
+    char ch2[11];
+    scanf("%s%s", &ch1, &ch2);
+    int len1 = strlen(ch1);
+    int len2 = strlen(ch2);
 
-    int newarr[n + m];
-    for (int i = 0; i < n; i++)
-    {
-        newarr[i]=arr[i];
-    }
-    for (int i = n; i < m+n; i++)
-    {
-        newarr[i]=arr2[i];
-    }
+    printf("%d %d\n", len1, len2);
+    
+    char A[11];
+    strcpy(A, ch1);
+    printf("%s\n", strcat(A, ch2));
 
-    for (int i = 0; i < n+m; i++)
-    {
-        printf("%d ", newarr[i]);
-    }
+    char temp = ch1[0];
+    ch1[0] = ch2[0];
+    ch2[0] = temp;
+
+    printf("%s %s", ch1, ch2);
 
     return 0;
 }
