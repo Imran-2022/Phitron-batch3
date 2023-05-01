@@ -15,6 +15,9 @@ A start from 65.
 difference between a and A = 32
 0 ascii 48
 
+
+c te max size of array = 10^6 . (for string.) otherwise need to read character by character.
+
 //need to solve this --
 
 #include <stdio.h>
