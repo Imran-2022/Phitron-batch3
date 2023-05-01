@@ -1,10 +1,6 @@
- #include <stdio.h>
-    int sum(int x, int y)
-    {
-    	int res = x+y;
-        return res;
-    }
-    int main()
-    {
-        sum(5,6);
-    }
+#include <stdio.h>
+int main()
+{
+    
+    return 0;
+}
