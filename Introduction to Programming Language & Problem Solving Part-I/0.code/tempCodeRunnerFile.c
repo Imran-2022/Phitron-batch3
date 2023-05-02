@@ -1,1 +1,1 @@
-n/2
+long long 
