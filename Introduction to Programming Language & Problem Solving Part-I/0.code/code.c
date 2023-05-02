@@ -1,8 +1,11 @@
 #include <stdio.h>
+int myfun(char *ch){
+    ch[0]="i";
+}
 int main()
 {
-    int n;
-    scanf("%d",&n);
-    printf("%d",n);
+    char ch[]="hello";
+    myfun(ch);
+    printf("%s",ch);
     return 0;
 }
