@@ -1,1 +1,3 @@
-R * (R + 1) / 2
+ count++;
+        printf("%lld\n",a);
+        a=a-b;

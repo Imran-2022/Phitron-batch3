@@ -41,3 +41,20 @@ int main()
 
     return 0;
 }
+
+
+// ----------contest 
+
+#include <stdio.h>
+
+int main() {
+    int A, B, num_attacks;
+    scanf("%d %d", &A, &B);
+    num_attacks = A / B;  // Integer division to find number of complete attacks
+    if (A % B > 0) {  // If there is a remainder, add one more attack
+        num_attacks++;
+    }
+    printf("%d", num_attacks);  // Print number of attacks needed
+    return 0;
+}
+
