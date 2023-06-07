@@ -8,12 +8,13 @@
 5. string intput in c++.
 6. common header file.
 7. sinppet setup.
+
 ```
 
 ### 1-1 C++ Setup
 
 ```
-
+in code runner .
 
 ```
 ### 1-2 How to Print in C++
@@ -49,6 +50,34 @@ int main()
 ```
 - contidional statement. 
 - 
+#include<iostream>
+using namespace std;
+int main()
+{
+    int v;
+    cin>>v;
+    switch(v)
+    {
+        case 1:
+            cout<<"One"<<endl;
+            break;
+        case 2:
+            cout<<"Two"<<endl;
+            break;
+        case 3:
+            cout<<"Three"<<endl;
+            break;
+        case 4:
+            cout<<"Four"<<endl;
+            break;
+        case 5:
+            cout<<"Five"<<endl;
+            break;
+        default:
+            cout<<"Didn't maatch"<<endl;
+    }
+    return 0;
+}
 
 ```
 ### 1-6 min() and max() Built-in function in C++
@@ -62,7 +91,6 @@ max(a,b)
 ### 1-7 swap() Built-in Function in C++
 
 ```
-
 - #include<utility>
 swap()
 
