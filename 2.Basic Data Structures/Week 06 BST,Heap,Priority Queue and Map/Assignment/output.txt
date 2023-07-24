@@ -1,0 +1,8 @@
+ali 25 100
+jobbar 24 99
+akib 23 95
+Empty
+kabir 15 65
+kabir 15 65
+asif 55 65
+tamim 35 65
