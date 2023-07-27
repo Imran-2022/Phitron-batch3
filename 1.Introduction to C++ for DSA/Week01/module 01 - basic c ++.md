@@ -105,6 +105,7 @@ int main()
 {
     char ch[100];
     cin.getline(ch,100);// like fgets but no need stdin .
+    // it's not take enter . 
     cout<<ch<<endl;
     return 0;
 }

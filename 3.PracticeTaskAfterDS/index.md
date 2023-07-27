@@ -1,0 +1,63 @@
+Sure! Here's the list of Data Structures related practice questions in Markdown format:
+
+### Linked List:
+1. [Reverse Linked List - LeetCode](https://leetcode.com/problems/reverse-linked-list/)
+2. [Design Browser History - LeetCode](https://leetcode.com/problems/design-browser-history/)
+3. [Delete Node in a Linked List - LeetCode](https://leetcode.com/problems/delete-node-in-a-linked-list/)
+4. [Swapping Nodes in a Linked List - LeetCode](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/)
+5. [Design Linked List - LeetCode](https://leetcode.com/problems/design-linked-list/)
+6. [Remove duplicates from a sorted Doubly Linked List - Coding Ninjas](https://www.codingninjas.com/codestudio/problems/remove-duplicates-from-a-sorted-doubly-linked-list_1192624)
+7. [Binary Linked List To Integer - Coding Ninjas](https://www.codingninjas.com/codestudio/problems/binary-linked-list-to-integer_893318)
+
+### Stack & Queue:
+1. [Baseball Game - LeetCode](https://leetcode.com/problems/baseball-game/)
+2. [Number of Students Unable to Eat Lunch - LeetCode](https://leetcode.com/problems/number-of-students-unable-to-eat-lunch/)
+3. [Make The String Great - LeetCode](https://leetcode.com/problems/make-the-string-great/)
+4. [Backspace String Compare - LeetCode](https://leetcode.com/problems/backspace-string-compare/)
+5. [Valid Parentheses - LeetCode](https://leetcode.com/problems/valid-parentheses/)
+6. [Number of Recent Calls - LeetCode](https://leetcode.com/problems/number-of-recent-calls/)
+7. [Time Needed to Buy Tickets - LeetCode](https://leetcode.com/problems/time-needed-to-inform-all-employees/)
+8. [First Unique Character in a String - LeetCode](https://leetcode.com/problems/first-unique-character-in-a-string/)
+9. [Redundant Brackets - Coding Ninjas](https://www.codingninjas.com/studio/problems/redundant-brackets_975473)
+10. [Minimum Cost To Make String Valid - Coding Ninjas](https://www.codingninjas.com/codestudio/problems/minimum-cost-to-make-string-valid_1212637)
+11. [Sweets and Ants - Coding Ninjas](https://www.codingninjas.com/codestudio/problems/sweets-and-ants_1171143)
+12. [Sum Of Three Stacks - Coding Ninjas](https://www.codingninjas.com/codestudio/problems/sum-of-three-stacks_1213084)
+13. [Reversing Queue - Coding Ninjas](https://www.codingninjas.com/codestudio/problems/reversing-queue_1199649)
+
+### Binary Tree:
+1. [Sum of Root To Leaf Binary Numbers - LeetCode](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/)
+2. [Average of Levels in Binary Tree - LeetCode](https://leetcode.com/problems/average-of-levels-in-binary-tree/)
+3. [Leaf-Similar Trees - LeetCode](https://leetcode.com/problems/leaf-similar-trees/)
+4. [Construct String from Binary Tree - LeetCode](https://leetcode.com/problems/construct-string-from-binary-tree/)
+5. [Cousins in Binary Tree - LeetCode](https://leetcode.com/problems/cousins-in-binary-tree/)
+6. [Symmetric Tree - LeetCode](https://leetcode.com/problems/symmetric-tree/)
+7. [Balanced Binary Tree - LeetCode](https://leetcode.com/problems/balanced-binary-tree/)
+8. [Path Sum - LeetCode](https://leetcode.com/problems/path-sum/)
+9. [Left View Of a Binary Tree - Coding Ninjas](https://www.codingninjas.com/studio/problems/left-view-of-a-binary-tree_920519)
+10. [Convert Sorted Array to BST - Coding Ninjas](https://www.codingninjas.com/codestudio/problems/convert-sorted-array-to-bst_1165763)
+
+### BST:
+1. [Kth Smallest Element in a BST - LeetCode](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
+2. [Insert into a Binary Search Tree - LeetCode](https://leetcode.com/problems/insert-into-a-binary-search-tree/)
+3. [All Elements in Two Binary Search Trees - LeetCode](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/)
+4. [Find Mode in Binary Search Tree - LeetCode](https://leetcode.com/problems/find-mode-in-binary-search-tree/)
+5. [Minimum Absolute Difference in BST - LeetCode](https://leetcode.com/problems/minimum-absolute-difference-in-bst/)
+6. [Convert Sorted Array to Binary Search Tree - LeetCode](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)
+7. [Search in a Binary Search Tree - LeetCode](https://leetcode.com/problems/search-in-a-binary-search-tree/)
+8. [Size of Largest BST in Binary Tree - Coding Ninjas](https://www.codingninjas.com/studio/problems/largest-bst-subtree_893103)
+9. [Ceil from BST - Coding Ninjas](https://www.codingninjas.com/studio/problems/ceil-from-bst_920464)
+10. [Guess Price - Coding Ninjas](https://www.codingninjas.com/studio/problems/guess-price_3211264)
+11. [Construct BST from Level Order - Coding Ninjas ](https://www.codingninjas.com/studio/problems/construct-bst-from-level-order_920774)
+12. [Validate BST - Coding Ninjas ](https://www.codingninjas.com/studio/problems/validate-bst_981275)
+
+### Heap:
+1. [Implement a priority queue - Coding Ninjas ](https://www.codingninjas.com/studio/problems/implement-a-priority-queue-using-heap-and-also-implement-getmaxelement-in-the-queue_1743878)
+2. [Day 29 : K Max Sum Combinations - Coding Ninjas ](https://www.codingninjas.com/studio/problems/k-max-sum-combinations_975322)
+3. [Day 27 : Magician and Chocolates - Coding Ninjas ](https://www.codingninjas.com/studio/problems/magician-and-chocolates_920437)
+4. [Kth Largest Element in an Array - LeetCode](https://leetcode.com/problems/kth-largest-element-in-an-array/)
+5. [Find K Closest Elements - LeetCode](https://leetcode.com/problems/find-k-closest-elements/)
+6. [Maximum Product of Two Elements in an Array - LeetCode](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/)
+7. [Make Array Zero by Subtracting Equal Amounts - LeetCode](https://leetcode.com/problems/make-the-array-zero-by-subtracting-zero/)
+8. [Take Gifts From the Richest Pile - LeetCode](https://leetcode.com/problems/richest-customer-wealth/)
+9. [Last Stone Weight - LeetCode](https://leetcode.com/problems/last-stone-weight/)
+10. [Relative Ranks - LeetCode](https://leetcode.com/problems/relative-ranks/)
