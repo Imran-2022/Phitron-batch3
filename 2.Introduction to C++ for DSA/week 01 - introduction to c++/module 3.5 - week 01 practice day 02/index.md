@@ -1,5 +1,56 @@
 ### [https://docs.google.com/document/d/19LFcY5dA90bjWqYm_uQKvXT2y3BXYlM3s7NEBBZGxZ0/edit]
 
+## Topics:
+1. Basic C++
+2. Class and Object
+
+## Codeforces Problem Links:
+- [V. Comparison](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/V)
+- [W. Mathematical Expression](https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/W)
+- [G. Palindrome Array (solve using two pointers’ technique)](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/G)
+- [I. Smallest Pair (solve using min() function)](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/I)
+- [O. Sort String (solve using sort() function)](https://codeforces.com/group/MWSDmqGsZm/contest/219856/problem/O)
+- [H. Sorting (solve using sort() function)](https://codeforces.com/group/MWSDmqGsZm/contest/219774/problem/H)
+
+
+## custom problem for practice 
+
+**Question 1:**
+
+Create three static objects with the help of the constructor of the following class.
+```
+Student
+{
+	name;
+	roll;
+	section;
+	math_marks;
+	cls;
+}
+
+```
+Then compare those 3 objects and print who got the highest math_marks and print his/her name.
+
+**Question 2:**
+
+Create a dynamic object named dhoni of the following class. Don’t use a constructor here, that means you need to fill the data by yourself.
+
+```
+Cricketer
+{
+	jersey_no;
+	country;
+}
+
+```
+
+Then make another dynamic object named kohli and copy the data of the dhoni object to kohli and after that delete the dhoni object. Then print the jersey_no and country of kohli object.
+**Note:**
+At first try to do this, kohli=dhoni and see if it gives the correct output. If not, then think deeply why it didn’t work and try to copy the data manually like kohli->jersey_no=dhoni->jersey_no; 
+
+
+
+
 ### V. Comparison [https://codeforces.com/group/MWSDmqGsZm/contest/219158/problem/V]
 ```
 #include <bits/stdc++.h>
