@@ -1,0 +1,2 @@
+**Remember Why You Started:** 
+**Reflect on why you chose CSE in the first place and the excitement you felt about coding initially. Reconnecting with your initial motivations can reignite your passion.**
