@@ -91,9 +91,24 @@ input-
 1
 7
 
-output-
 
+output-
 3
 
+7
+8
+1 2
+1 3
+3 4
+4 6
+2 5
+5 6
+5 7
+3 7
+1
+7
+
+distance : 2
+path : 1 3 7 
 
 */

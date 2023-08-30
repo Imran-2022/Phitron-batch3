@@ -11,7 +11,12 @@ vector<bool> visited(N);
 
 void dijkstra(int source)
 {
+    // priority_queue<int>, it's the same as priority_queue<int, vector<int>>.
+    
     priority_queue<pii, vector<pii>, greater<pii>> pq;
+
+    //  compare function pair ar first element neya kj kore, na parle second. 
+
     dist[source] = 0;
     pq.push({dist[source], source});
 
@@ -19,7 +24,7 @@ void dijkstra(int source)
     {
         int u = pq.top().second;
         pq.pop();
-        visited[u] = true;
+        visited[u] = true;  
 
         for (pii vpair : adj[u])
         {

@@ -5,7 +5,6 @@ const int N=1e3+5;
 vector<int>adj[N];
 bool visited[N];
 
-
 void dfs(int u){
 
     visited[u]=true;
@@ -14,7 +13,6 @@ void dfs(int u){
         if(visited[v]) continue;
         dfs(v);
     }
-
 }
 
 
