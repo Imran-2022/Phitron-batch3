@@ -1,3 +1,5 @@
 *.exe
 *.txt
 pcode.cpp
+.vscode
+tempCodeRunnerFile.cpp

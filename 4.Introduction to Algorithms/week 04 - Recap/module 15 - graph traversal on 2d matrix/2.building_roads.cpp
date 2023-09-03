@@ -26,7 +26,7 @@ int main()
     {
         int a, b;
         cin >> a >> b;
-        v[a].push_back(b);f
+        v[a].push_back(b);
         v[b].push_back(a);
     }
 

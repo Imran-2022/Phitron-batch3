@@ -4,7 +4,9 @@
 ### shortcut - 
 
 ```
+
 in vs code , press ctrl+r to back to any folder in vs code  awasome.!!
+
 ```
 
 ```
@@ -186,6 +188,17 @@ int main()
     cin.getline(ch,100);// like fgets but no need stdin .
     // it's not take enter . 
     cout<<ch<<endl;
+    return 0;
+}
+
+
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    string ss;
+    getline(cin,ss);
+    cout<<ss<<endl;
     return 0;
 }
 
