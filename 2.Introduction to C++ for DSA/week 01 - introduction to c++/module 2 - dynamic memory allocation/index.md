@@ -3,7 +3,7 @@
 1. stack and heap memory 
 2. why dynamic memory .
 3. how to create data in dynamic memory.
-4. dynamic array . [ two work that not possible in static array]
+4. dynamic array . [ two work that Not Possible in static array]
 5. ternary operator .(if else shortcut)
 ```
 
