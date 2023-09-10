@@ -5,6 +5,7 @@
 3. how to create data in dynamic memory.
 4. dynamic array . [ two work that Not Possible in static array]
 5. ternary operator .(if else shortcut)
+
 ```
 
 ### 2-1 Stack and Heap Memory.
@@ -60,6 +61,7 @@ int main()
     }
     return 0;
 }
+
 ```
 
 ### 2-4 Increase Size using Dynamic Array
@@ -105,7 +107,7 @@ int main()
 
 ### 2-6 Return Dynamic Array from Function
 ```
-// Return Dynamic Array from Function
+// Return Dynamic Array from Function,,
 
 #include <iostream>
 using namespace std;

@@ -3,7 +3,6 @@ using namespace std;
 const int N= 1e5+5;
 vector<pair<int,int>>adj[N];
 
-
 int main()
 {
     int n,m;
@@ -28,6 +27,7 @@ int main()
     
     return 0;
 }
+
 /*
 input - 
 
