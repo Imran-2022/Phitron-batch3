@@ -1,1 +1,1 @@
-**[https://www.hackerrank.com/contests/assignment-02-a-introduction-to-algorithms-a-batch-03/challenges](https://www.hackerrank.com/contests/assignment-02-a-introduction-to-algorithms-a-batch-03/challenges)** 
+- [Assignment 02 | Introduction to Algorithms | Batch 03](https://www.hackerrank.com/contests/assignment-02-a-introduction-to-algorithms-a-batch-03/challenges)

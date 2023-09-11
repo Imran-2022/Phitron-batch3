@@ -1,32 +1,39 @@
 #include <bits/stdc++.h>
+#define ll long long
 using namespace std;
 int main()
 {
-    long long int n,m;
-    cin>>n>>m;
-    long long int arr[n];
-    for(long long int i=0;i<n;i++){
-        cin>>arr[i];
+    ll n, t;
+    cin >> n >> t;
+    ll arr[n];
+    for (int i = 0; i < n; i++)
+    {
+        cin >> arr[i];
     }
-    long long int arr2[n];
-    arr2[0]=arr[0];
-    for(long long int i=1;i<n;i++){
-        arr2[i]=arr[i]+arr2[i-1];
+    ll rangedArr[n];
+    rangedArr[0] = arr[0];
+    for (int i = 1; i < n; i++)
+    {
+        rangedArr[i] = rangedArr[i - 1] + arr[i];
     }
-  
-    while(m--){
-        long long int s1,s2,sum;
-        cin>>s1>>s2;
-        s1--;
-        s2--;
-        if(s1==0){
-            sum=arr2[s2];
+    // for (int i = 0; i < n; i++)
+    // {
+    //     cout << rangedArr[i] << " ";
+    // }
+
+    while (t--)
+    {
+        int s, e;
+        cin >> s >> e;
+        s--;
+        e--;
+        if (s == 0)
+            cout << rangedArr[e] << endl;
+        else
+        {
+            cout << rangedArr[e] - rangedArr[s - 1] << endl;
         }
-        else{
-            sum=arr2[s2]-arr2[s1-1];
-        }
-        
-        cout<<sum<<endl;
     }
+
     return 0;
 }

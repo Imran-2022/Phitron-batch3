@@ -2,8 +2,12 @@
 using namespace std;
 int main()
 {
-    vector<int> v1{1,2,3,4,5,6};
-    vector<int> v2(v1);
-    for(auto x:v2)cout<<x<<" ";
+    
+    vector<int> vt = {1, 2, 33, 4, 5};
+    vector<int>::iterator it;
+    it=find(vt.begin(),vt.end(),3);
+    cout<<*it<<endl;
+    if(it==vt.end())cout<<"HI"<<endl;
+
     return 0;
 }
