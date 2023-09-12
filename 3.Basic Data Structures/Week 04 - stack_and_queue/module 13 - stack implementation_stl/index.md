@@ -20,6 +20,7 @@ A stack supports the following basic operations:
 4. **stack implement using doubly linkedlist**
 5. **stack stl library**
 
+
 ## brief
 
 1. ADT - Abstract data structure.
