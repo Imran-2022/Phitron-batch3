@@ -1,23 +1,13 @@
-### [problem set](https://docs.google.com/document/d/1UjqSc79POHOPFPt3Xwzpbgi0J4C1IGl0qY1qzJrFGwM/edit)
+# Coding Ninjas Binary Tree Topics
 
-```
-Is Node Present? - Coding Ninjas 
--
+- [Is Node Present - Coding Ninjas](https://www.codingninjas.com/studio/problems/code-find-a-node_5682)
 
-bool isNodePresent(BinaryTreeNode<int> *root, int x) {
-    // Write your code here
-    if(root==NULL)return false;
-    if(root->data==x) return true;
-    bool l=isNodePresent(root->left,x);
-    bool r=isNodePresent(root->right,x);
-    return (l||r);
-}
--
+- [Node Level - Coding Ninjas](https://www.codingninjas.com/studio/problems/node-level_920383)
 
-Node Level - Coding Ninjas 
-Left View Of a Binary Tree - Coding Ninjas 
-Diameter Of Binary Tree - Coding Ninjas 
-Special Binary Tree. - Coding Ninjas 
-Reverse Level Order Traversal - Coding Ninjas
+- [Left View Of a Binary Tree - Coding Ninjas](https://www.codingninjas.com/studio/problems/left-view-of-a-binary-tree_920519)
 
-```
+- [Diameter Of Binary Tree - Coding Ninjas](https://www.codingninjas.com/studio/problems/diameter-of-the-binary-tree_920552)
+
+- [Special Binary Tree - Coding Ninjas](https://www.codingninjas.com/studio/problems/special-binary-tree_920502)
+
+- [Reverse Level Order Traversal - Coding Ninjas](https://www.codingninjas.com/studio/problems/reverse-level-order-traversal_764339)

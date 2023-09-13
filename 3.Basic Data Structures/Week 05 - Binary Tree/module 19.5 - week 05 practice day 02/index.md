@@ -1,23 +1,9 @@
-### [problem set](https://docs.google.com/document/d/1UjqSc79POHOPFPt3Xwzpbgi0J4C1IGl0qY1qzJrFGwM/edit)
+# LeetCode Problems
 
-```
-Is Node Present? - Coding Ninjas 
--
+Here are some LeetCode problems and their links:
 
-bool isNodePresent(BinaryTreeNode<int> *root, int x) {
-    // Write your code here
-    if(root==NULL)return false;
-    if(root->data==x) return true;
-    bool l=isNodePresent(root->left,x);
-    bool r=isNodePresent(root->right,x);
-    return (l||r);
-}
--
-
-Node Level - Coding Ninjas 
-Left View Of a Binary Tree - Coding Ninjas 
-Diameter Of Binary Tree - Coding Ninjas 
-Special Binary Tree. - Coding Ninjas 
-Reverse Level Order Traversal - Coding Ninjas
-
-```
+1. [Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/)
+2. [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/)
+3. [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/)
+4. [Same Tree](https://leetcode.com/problems/same-tree/)
+5. [Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/)
