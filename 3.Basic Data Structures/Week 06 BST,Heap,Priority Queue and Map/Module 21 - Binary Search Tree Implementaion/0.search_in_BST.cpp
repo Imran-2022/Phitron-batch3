@@ -57,9 +57,8 @@ Node *input_tree()
     }
     return root;
 }
-
 void level_order(Node *root)
-{ 
+{
     queue<Node *> q;
     if (root == NULL)
     {
@@ -84,26 +83,48 @@ void level_order(Node *root)
             q.push(f->right);
     }
 }
-
-bool search(Node * root, int x){
-    if(root==NULL) return false;
-    if(root->val==x) return true;
-    if(x<root->val){
+bool search(Node *root, int x)
+{
+    if (root == NULL)
+        return false;
+    if (root->val == x)
+        return true;
+    if (x < root->val)
+    {
         // bool l=search(root->left,x);
         // if(l==true) return true;
         // else return false;
-        return search(root->left,x);
-    }else{
-        return search(root->right,x);
+        return search(root->left, x);
+    }
+    else
+    {
+        return search(root->right, x);
     }
 }
-
 
 int main()
 {
     Node *root = input_tree();
-    // level_order(root);
-    if(search(root,122))cout<<"yes,Found"<<endl;
-    else cout<<"Node Not Found"<<endl;
+    level_order(root);
+    cout<<endl;
+    if (search(root, 26))
+        cout << "yes,Found" << endl;
+    else
+        cout << "Node Not Found" << endl;
     return 0;
 }
+
+/*
+
+input:
+
+10 5 15 2 6 12 16 -1 3 -1 -1 -1 -1 -1 -1 -1 -1
+
+output:
+
+10 5 15 2 6 12 16 3 
+Node Not Found
+
+
+
+*/

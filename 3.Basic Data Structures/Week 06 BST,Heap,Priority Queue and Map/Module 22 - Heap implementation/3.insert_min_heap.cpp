@@ -32,3 +32,16 @@ int main()
 
     return 0;
 }
+
+
+/*
+input:
+
+4
+4 2 3 1
+
+output:
+
+1 2 3 4 
+
+*/

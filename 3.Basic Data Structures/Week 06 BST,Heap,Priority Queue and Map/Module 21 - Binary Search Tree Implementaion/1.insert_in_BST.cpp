@@ -87,7 +87,7 @@ void level_order(Node *root)
 
 void insert(Node *&root, int x)
 {
-    if (root == 0)
+    if (root == NULL)
     {
         root = new Node(x);
         return;
@@ -120,12 +120,26 @@ int main()
 {
     Node *root = input_tree();
 
-    int x;
-    cin >> x;
-    insert(root, x);
-    insert(root, 32);
-    insert(root, 22);
+    // int x;
+    // cin >> x;
+    // insert(root, x);
+    insert(root, 3);
+    insert(root, 7);
     level_order(root);
 
     return 0;
 }
+
+
+/*
+input:
+
+10 5 15 2 6 12 16 -1 3 -1 -1 -1 -1 -1 -1 -1 -1
+
+
+
+output:
+
+10 5 15 2 6 12 16 13 7 3 
+
+*/

@@ -16,7 +16,11 @@ public:
 
 Node *convert(int arr[], int n, int l, int r)
 {
+
     if(l>r)return NULL;
+
+    // like while(l<=r)do binary search!
+
     int mid = (l + r) / 2;
     Node *root = new Node(arr[mid]);
     Node *leftRoot = convert(arr, n, l, mid - 1);
@@ -24,6 +28,7 @@ Node *convert(int arr[], int n, int l, int r)
     root->left=leftRoot;
     root->right=rootRight;
     return root;
+
 }
 
 
@@ -68,3 +73,18 @@ int main()
     level_order(root);
     return 0;
 }
+
+
+/*
+
+input:
+
+6
+2 5 8 12 15 18
+
+output:
+
+8 2 15 5 12 18 
+
+
+*/

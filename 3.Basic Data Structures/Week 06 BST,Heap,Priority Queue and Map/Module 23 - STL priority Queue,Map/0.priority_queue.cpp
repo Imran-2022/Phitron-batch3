@@ -11,15 +11,15 @@ int main()
         {
             int x;
             cin >> x;
-            pq.push(x);
+            pq.push(x);  //O(logn)
         }
         else if (c == 1)
         {
-            pq.pop();
+            pq.pop(); //O(logn)
         }
         else if (c == 2)
         {
-            cout << pq.top() << endl;
+            cout << pq.top() << endl; //O(1)
         }
         else
         {
@@ -28,3 +28,22 @@ int main()
     }
     return 0;
 }
+
+/*
+pq te front nai. 
+
+input:
+
+0 12
+0 20
+0 30
+0 2
+1
+2
+3
+
+output:
+
+20
+
+*/
