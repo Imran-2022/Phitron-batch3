@@ -1,3 +1,8 @@
+### Topics:
+- Divide & Conquer
+- Merge Sort
+
+
 Problem Links:
 
 - Sort an Array - [Leetcode](https://leetcode.com/)
