@@ -44,3 +44,19 @@ int main()
 
     return 0;
 }
+
+/*
+
+input: 
+
+4 - size
+1 5 3 2 - val
+5 2 4 3 - weight
+7 - mx_weight
+
+output:
+
+knapsack : 8
+
+
+*/

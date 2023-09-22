@@ -37,3 +37,17 @@ int main()
     else cout<<"NO"<<endl;
     return 0;
 }
+
+/*
+
+input:
+
+4
+1 2 4 6
+7
+
+output:
+
+YES
+
+*/

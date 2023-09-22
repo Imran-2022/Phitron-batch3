@@ -36,3 +36,17 @@ int main()
 
     return 0;
 }
+
+/*
+input:
+
+3 8
+3 30
+4 50
+5 60
+
+output:
+
+90
+
+*/

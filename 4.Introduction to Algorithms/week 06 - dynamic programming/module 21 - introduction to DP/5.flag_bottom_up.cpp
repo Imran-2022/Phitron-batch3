@@ -27,3 +27,16 @@ int main()
 
 
 // complexity O(n)
+
+/*
+input:
+
+4
+10 30 40 20
+
+
+output:
+
+30
+
+*/

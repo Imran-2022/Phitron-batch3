@@ -55,14 +55,31 @@ int main()
 
     cout << knapsack(n, s, v, w) << endl;
 
-    for (int i = 0; i <= n; i++)
-    {
-        for (int j = 0; j <= s; j++)
-        {
-            cout << dp[i][j] << " ";
-        }
-        cout << endl;
-    }
+    // for (int i = 0; i <= n; i++)
+    // {
+    //     for (int j = 0; j <= s; j++)
+    //     {
+    //         cout << dp[i][j] << " ";
+    //     }
+    //     cout << endl;
+    // }
 
     return 0;
 }
+
+/*
+
+- momoization depens of thangs that can change in code.
+
+input:
+
+4
+1 5 3 2
+5 2 4 3
+7
+
+output:
+
+8
+
+*/

@@ -20,9 +20,7 @@ int solve(int a[],int n){
     else{
 
         int choice1 = solve(a,n-1)+abs(a[n]-a[n-1]);
-
         int choice2 = solve(a,n-2)+abs(a[n]-a[n-2]);
-
         return dp[n]= min(choice1,choice2);
     }
 }
@@ -42,3 +40,15 @@ int main()
 }
 
 // complexity O(n)
+/*
+input:
+
+4
+10 30 40 20
+
+
+output:
+
+30
+
+*/

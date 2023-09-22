@@ -34,7 +34,7 @@ int main()
     }
     int s;
     cin >> s;
-    dp[0][0] = true;
+    dp[0][0] = 1;
     for (int i = 1; i <= s; i++)
     {
         dp[0][i] = 0;
@@ -53,13 +53,36 @@ int main()
             }
         }
     }
-    for (int i = 0; i <= n; i++)
-    {
-        for (int j = 0; j <= s; j++)
-        {
-            cout << dp[i][j] << " ";
-        }
-        cout << endl;
-    }
+
+    // for (int i = 0; i <= n; i++)
+    // {
+    //     for (int j = 0; j <= s; j++)
+    //     {
+    //         cout << dp[i][j] << " ";
+    //     }
+    //     cout << endl;
+    // }
+
+    cout<<dp[n][s]<<endl;
     return 0;
 }
+
+/*
+input:
+
+6
+1 2 3 4 5 6 
+7
+
+
+4
+0 0 0 7
+7
+
+output:
+
+4
+
+8
+
+*/
