@@ -6,3 +6,4 @@
 
 4. [YCPC by Phitron | 2nd Round : Contest 1 | 2023](https://www.hackerrank.com/contests/ycpc-by-phitron-a-2nd-round-contest-1-a-2023/challenges)
 
+5. [XPSC Club Preliminary Contest | Batch 03](https://www.hackerrank.com/contests/xpsc-club-preliminary-contest-a-batch-03/challenges)
