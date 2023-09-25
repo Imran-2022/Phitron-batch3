@@ -21,5 +21,5 @@
 1. Codeforces contest problems list [Cftracker](https://cftracker.netlify.app/contests)
 2. problem list by ratings [c2-ladders](https://c2-ladders.com/)
 3. neetcode dsa roadmap with solution video  [neetCode](https://neetcode.io/roadmap?fbclid=IwAR3SIDZjcDI6l0v7e-wdqwyhae0jm8gtNfCMDPQQQ9upNIUDBE0pFDgvwZE)
-4, dsa problem list [Rohit Negi](https://docs.google.com/spreadsheets/d/1kTWgHJYi1ESlUVmk18AH1r78_UwfYhpyYyC_LdOxzQg/edit?usp=sharing)
+4. dsa problem list [Rohit Negi](https://docs.google.com/spreadsheets/d/1kTWgHJYi1ESlUVmk18AH1r78_UwfYhpyYyC_LdOxzQg/edit?usp=sharing)
 5. Strivers A2Z DSA Course/Sheet [A2Z DSA Sheet](https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/)
