@@ -1,0 +1,1 @@
+- [week 01 - contest link](https://vjudge.net/contest/584662#problem)
