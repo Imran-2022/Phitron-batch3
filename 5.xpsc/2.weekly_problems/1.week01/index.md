@@ -6,7 +6,7 @@
 2. [First negative integer in every window of size k](https://practice.geeksforgeeks.org/problems/first-negative-integer-in-every-window-of-size-k3345/1)
 3. [Count Occurrences of Anagrams](https://practice.geeksforgeeks.org/problems/count-occurrences-of-anagrams5839/1)
 
-### Other Problems
+### Problems list :
 
 - B - Multiplication 1 - [AtCoder](https://atcoder.jp/contests/abc169/tasks/abc169_a?lang=en)
 - C - Counting - [AtCoder](https://atcoder.jp/contests/abc209/tasks/abc209_a?lang=en)
@@ -31,4 +31,4 @@
 - V - Enormous Input Test - [SPOJ](https://www.spoj.com/problems/INTEST/en)
 - W - Multiple Gift - [AtCoder](https://atcoder.jp/contests/abc083/tasks/arc088_a?lang=en)
 
-Happy Coding!
+---------------- Happy Coding!
