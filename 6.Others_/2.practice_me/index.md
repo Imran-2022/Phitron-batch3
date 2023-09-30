@@ -1,5 +1,3 @@
-- [cp tracker](https://cftracker.netlify.app/contests)
-
 ### solved problem list 
 
 1. []()
