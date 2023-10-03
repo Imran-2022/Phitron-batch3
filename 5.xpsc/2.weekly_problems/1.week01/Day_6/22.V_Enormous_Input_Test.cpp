@@ -1,7 +1,7 @@
 /**
  * problem link : https://www.spoj.com/problems/INTEST/en/
  * 
- * new to me : 
+ * comment : : 
  * 
 */
 

@@ -1,7 +1,7 @@
 /**
  * problem link : https://atcoder.jp/contests/abc124/tasks/abc124_a?lang=en
  * 
- * new to me : 
+ * comment : : 
  * 
 */
 #include <bits/stdc++.h>

@@ -1,7 +1,7 @@
 /**
  * problem link : https://atcoder.jp/contests/abc220/tasks/abc220_a?lang=en
  * 
- * new to me : tittle tricky. check it .
+ * comment : : tittle tricky. check it .
  * 
 */
 #include <bits/stdc++.h>

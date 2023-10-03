@@ -1,7 +1,7 @@
 /**
  * problem link : https://atcoder.jp/contests/abc083/tasks/arc088_a?lang=en
  * 
- * new to me : 
+ * comment : : just amazing , check later !
  * 
 */
 
@@ -9,13 +9,10 @@
 using namespace std;
 int main()
 {
-    long long t,k;
-    cin>>t>>k;
+    long long l,k;cin>>l>>k;
     long long cnt=0;
-    while(t--){
-        long long  n;
-        cin>>n;
-        if(n%k==0)cnt++;
+    for(long long i=l;i<=k;i*=2){
+        cnt++;
     }
     cout<<cnt<<endl;
     return 0;

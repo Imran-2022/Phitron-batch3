@@ -1,7 +1,7 @@
 /**
  * problem link : https://atcoder.jp/contests/abc193/tasks/abc193_a?lang=en
  * 
- * new to me : 
+ * comment : : 
  * 
  * should learn percentage math later.
  * Discount Percentage = [(Regular Price - Sale Price) / Regular Price] * 100

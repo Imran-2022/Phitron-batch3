@@ -1,7 +1,7 @@
 /**
  * problem link : https://codeforces.com/contest/440/problem/A
  * 
- * new to me :  comparing like this . great .
+ * comment : :  comparing like this . great .
  * 
 */
 

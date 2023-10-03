@@ -1,7 +1,7 @@
 /**
  * problem link : https://atcoder.jp/contests/abc169/tasks/abc169_a?lang=en
  * 
- * new to me : 
+ * comment : : 
  * 
 */
 

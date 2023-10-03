@@ -1,9 +1,9 @@
 ### solved problem list 
 
-1. []()
-2. []()
-3. []()
-4. []()
+1. [A. Twins](https://codeforces.com/contest/160/problem/A)
+2. [A. Short Sort](https://codeforces.com/contest/1873/problem/A)
+3. [B. Good Kid](https://codeforces.com/contest/1873/problem/B)
+4. [C. Target Practice](https://codeforces.com/contest/1873/problem/C)
 5. []()
 6. []()
 7. []()

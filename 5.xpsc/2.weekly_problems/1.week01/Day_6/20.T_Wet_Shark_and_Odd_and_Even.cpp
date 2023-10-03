@@ -1,7 +1,7 @@
 /**
  * problem link : https://codeforces.com/problemset/problem/621/A
  * 
- * new to me : 
+ * comment : : 
  * 
 */
 

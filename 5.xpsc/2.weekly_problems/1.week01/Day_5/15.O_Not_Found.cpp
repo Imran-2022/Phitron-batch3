@@ -1,7 +1,7 @@
 /**
  * problem link : https://vjudge.net/contest/584662#problem/O
  * 
- * new to me : 
+ * comment : : 
  * play with string
  * remove duplicate from a string.
  * sort string
