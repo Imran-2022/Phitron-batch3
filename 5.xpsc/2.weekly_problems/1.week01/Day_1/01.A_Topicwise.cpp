@@ -31,6 +31,33 @@ public:
 
 // code 2 :
 
+vector<long long> printFirstNegativeInteger(long long int a[],
+                                             long long int n, long long int k) {
+                                                 
+             long long int i = 0, j = 0;
+    queue<long long int> q;
+    vector<long long>vt;
+    while (j < n)
+    {
+        if (a[j] < 0)
+            q.push(a[j]);
+        if (j >= k - 1)
+        {
+            if (q.size())
+                // cout << q.front() << " ";
+                vt.push_back(q.front());
+            else
+                // cout << 0 << " ";
+                vt.push_back(0);
+            if (a[i] < 0)
+                q.pop();
+            i++;
+        }
+        j++;
+    }
+    return vt;
+                                                 
+ }
 
 // code 3 :
 
