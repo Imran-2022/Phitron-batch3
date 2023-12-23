@@ -1,7 +1,7 @@
 /**
- * author : _Grandmaster
- * created : 22-12-2023 21:33:49
- **/
+* author : _Grandmaster
+* created : 23-12-2023 19:30:59
+**/
 
 #include <bits/stdc++.h>
 #define ll long long
@@ -16,36 +16,32 @@
 #define all(p) p.begin(), p.end()
 #define rall(v) v.rbegin(), v.rend()
 #define si set<int>
+#define vi vector<int>
+#define vvi vector<vi>
+#define pii pair<int, int>
+#define print(a)for (auto x : a)cout << x << ' ';cout<<e;
+#define print1(a)for (auto x : a)cout << x.F << ' ' << x.S << endl;
 #define IMRAN ios_base::sync_with_stdio(false), cin.tie(0), cout.tie(0);
 using namespace std;
 
-void solve()
-{
-    int n;
-    cin >> n;
-    int a, b;
-    cin >> a >> b;
-    bool flag = 1;
-    for (int i = 1; i < n; i++)
-    {
-        int a1, b1;
-        cin >> a1 >> b1;
-        if (a1 >= a && b1 >= b)
-        {
-            flag = 0;
+void solve(){
+    ll n,cnt = 1,b;
+    cin>>n;
+    for(ll i = 1 ; i <= n ; i++) {
+        cin>>b;
+        if(b == cnt) {
+            cnt++;
         }
+        cnt++;
     }
-    if (flag)
-        cout << a << endl;
-    else
-        cout << -1 << endl;
+    cout<<cnt-1<<endl;
 }
 
 int main()
 {
     IMRAN
-    int t = 1;
-    cin >> t;
-    while (t--)solve();
+    int t=1;
+    cin>>t;
+    while(t--)solve();
     return 0;
 }
