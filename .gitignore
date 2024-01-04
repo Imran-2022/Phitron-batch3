@@ -1,9 +1,9 @@
 *.exe
 *.txt
 pcode.cpp
+pcode.py
 .vscode
 tempCodeRunnerFile.cpp
 should_solve.
 .cph
-
-6.Softeare_track
+tempCodeRunnerFile.py
