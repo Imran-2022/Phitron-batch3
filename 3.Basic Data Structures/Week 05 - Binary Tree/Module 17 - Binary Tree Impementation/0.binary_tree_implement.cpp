@@ -15,6 +15,9 @@ public:
     }
 };
 
+
+
+
 int main()
 {
     Node *root = new Node(10);
@@ -43,7 +46,6 @@ int main()
 
     //  pre-order traversal of bt -
 
-    
      
     return 0;
 }

@@ -27,7 +27,7 @@ class Phone(Gadget):
     
     def phone_call(self,number,text):
         return f'sending sms to {number} with {text}'
-    
+    f
     def __repr__(self) -> str:
         return f'is dual sim {self.dual_sim}'
 

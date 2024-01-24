@@ -9,7 +9,7 @@ class Person:
     
     def exercise(self):
         raise NotImplemented
-
+ 
 class Cricketer(Person):
     def __init__(self, name, age, height, weight,team) -> None:
         self.team=team

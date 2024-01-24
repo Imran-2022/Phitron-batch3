@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+
 class Node
 {
 public:
@@ -28,35 +29,37 @@ Node *input_tree()
         q.push(root);
     while (!q.empty())
     {
+
         // 1.bar kore ano
         Node *f = q.front();
         q.pop();
         // 2,jabotiyo ja kaj ache.
+
         int l, r;
         cin >> l >> r;
         Node *left;
         Node *right;
-        if (l == -1)
-            left = NULL;
-        else
-            left = new Node(l);
 
-        if (r == -1)
-            right = NULL;
-        else
-            right = new Node(r);
+        if (l == -1) left = NULL;
+        else left = new Node(l);
+            
+
+        if (r == -1) right = NULL;
+        else right = new Node(r);
 
         f->left = left;
         f->right = right;
 
-        // 3. children gula ke push koro
-        if (f->left)
-            q.push(f->left);
-        if (f->right)
-            q.push(f->right);
+        // 3. children gula ke push koro 
+
+        if (f->left) q.push(f->left);
+        if (f->right) q.push(f->right);
+
     }
+
     return root;
 }
+
 
 int count (Node * root){
     if(root==NULL) return 0;
@@ -64,6 +67,7 @@ int count (Node * root){
     int r= count(root->right);
     return l+r+1;
 }
+
 
 int main()
 {

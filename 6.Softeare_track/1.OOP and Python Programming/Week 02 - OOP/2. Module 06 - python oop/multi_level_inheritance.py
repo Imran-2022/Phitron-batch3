@@ -22,3 +22,4 @@ class PickUpTruck(Truck):
     def __init__(self, name, price, weight) -> None:
         super().__init__(name, price, weight)
     
+
