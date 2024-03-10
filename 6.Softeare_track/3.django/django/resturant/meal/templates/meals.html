@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+    <div>
+        <div>
+            <p>This is the meals page! Glad to see you here!</p>
+            <p>Number of categories: {{ categories|length }}</p>
+        </div>
+        <div class="row">
+            {% for category in categories %}
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="{{ category.strCategoryThumb }}" class="card-img-top" alt="{{ category.strCategory }}">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ category.strCategory }}</h5>
+                        <p class="card-text">{{ category.strCategoryDescription|truncatewords:10 }}</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">ID: {{ category.idCategory }}</li>
+                    </ul>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    
+{% endblock %}

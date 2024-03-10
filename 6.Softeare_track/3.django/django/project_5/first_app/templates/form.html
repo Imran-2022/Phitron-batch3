@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+
+<div class="container p-4 my-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6 border border-dark rounded p-4">
+      <form method="post" action="/first/about/">
+        {% csrf_token %}
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Enter your name" aria-describedby="namehelp" name="user-name">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter your email" aria-describedby="emailHelp" name="email">
+        </div>
+        <select class="form-select mb-3" aria-label="Default select example" name='select'>
+          <option selected>Ratings</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+        <button type="submit" class="btn btn-primary d-block w-100">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+{% endblock %}

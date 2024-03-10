@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+{{id}}
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">userId</th>
+      <th scope="col">Id</th>
+      <th scope="col">Title</th>
+      <th scope="col">Body</th>
+    </tr>
+  </thead>
+  <tbody>
+      {% comment %} loop here {% endcomment %}
+
+      {% for i in data %}
+      <tr>
+          <th scope="row">{{ i.userId }}</th>
+          <td>{{ i.id }}</td>
+          <td>{{ i.title }}</td>
+          <td>{{ i.body }}</td>
+      </tr>
+      {% endfor %}
+  </tbody>
+</table>
+
+
+<h1>i an inside first_app</h1>
+<img style="width: 300px;" src="{% static 'images/image_2.webp' %}" alt="google_image">
+{% endblock %}

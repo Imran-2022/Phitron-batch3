@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+{% load crispy_forms_tags %}
+<form action="" method="POST" class="p-4" enctype="multipart/form-data">
+
+    {% comment %} to get any data add enctype {% endcomment %}
+
+    {% csrf_token %}
+
+    {{ form|crispy }}
+
+    {% comment %} 
+    django form just field toire kore dai but submit from  ba form action agula korte hbe !!! 
+    {% endcomment %}
+
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+{% endblock %}

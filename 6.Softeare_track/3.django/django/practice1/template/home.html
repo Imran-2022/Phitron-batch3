@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1><a href="/">Home</a></h1>
+    <h1><a href="">First App</a>/ <a href="/navigation/about">About</a></h1>
+    <h1><a href="">First App</a>/ <a href="/navigation/contact">Contact</a></h1>
+
+        <h1>Template Filters Practice</h1>
+        
+        <!-- addslashes -->
+        <h2>Addslashes:</h2>
+        <p>{{ text|addslashes }}</p>
+        
+        <!-- capfirst -->
+        <h2>Capfirst:</h2>
+        <p>{{ sentence|capfirst }}</p>
+        
+        <!-- center -->
+        <h2>Center:</h2>
+        <p>{{ text|center:20 }}</p>
+        
+        <!-- cut -->
+        <h2>Cut:</h2>
+        <p>{{ text|cut:"world" }}</p>
+        
+        <!-- date -->
+        <h2>Date:</h2>
+        <p>{{ date_time|date:"D d M Y" }}</p>
+        
+        <!-- default -->
+        <h2>Default:</h2>
+        <p>{{ missing_variable|default:"No value provided" }}</p>
+        
+        <!-- dictsort -->
+        <h2>Dictsort:</h2>
+        <ul>
+            {% for key, value in dictionary|dictsort:"key" %}
+                <li>{{ key }}: {{ value }}</li>
+            {% endfor %}
+        </ul>
+    
+        
+        <!-- divisibleby -->
+        <h2>Divisibleby:</h2>
+        <p>{{ number }} is {% if number|divisibleby:5 %}divisible{% else %}not divisible{% endif %} by 5</p>
+        
+        <!-- escape -->
+        <h2>Escape:</h2>
+        <p>{{ html_text|escape }}</p>
+        
+        <!-- filesizeformat -->
+        <h2>Filesizeformat:</h2>
+        <p>{{ filesize|filesizeformat }}</p>
+        
+        <!-- first -->
+        <h2>First:</h2>
+        <p>{{ list|first }}</p>
+        
+        <!-- join -->
+        <h2>Join:</h2>
+        <p>{{ list|join:", " }}</p>
+        
+        <!-- last -->
+        <h2>Last:</h2>
+        <p>{{ list|last }}</p>
+        
+        <!-- length -->
+        <h2>Length:</h2>
+        <p>{{ list|length }}</p>
+        
+        <!-- linenumbers -->
+        <h2>Linenumbers:</h2>
+        <p>{{ sentence|linenumbers }}</p>
+        
+        <!-- lower -->
+        <h2>Lower:</h2>
+        <p>{{ text|lower }}</p>
+        
+        <!-- make_list -->
+        <h2>Make_list:</h2>
+        <p>{{ sentence|make_list }}</p>
+        
+        <!-- random -->
+        <h2>Random:</h2>
+        <p>{{ list|random }}</p>
+        
+        <!-- slice -->
+        <h2>Slice:</h2>
+        <p>{{ list|slice:":2" }}</p>
+        
+        <!-- slugify -->
+        <h2>Slugify:</h2>
+        <p>{{ sentence|slugify }}</p>
+        
+        <!-- time -->
+        <h2>Time:</h2>
+        <p>{{ date_time|time:"h:i:s A" }}</p>
+        
+        <!-- timesince -->
+        <h2>Timesince:</h2>
+        <p>{{ date_time|timesince }} ago</p>
+        
+        <!-- title -->
+        <h2>Title:</h2>
+        <p>{{ sentence|title }}</p>
+        
+        <!-- unordered_list -->
+        <h2>Unordered_list:</h2>
+        <p>{{ list|unordered_list }}</p>
+        
+        <!-- upper -->
+        <h2>Upper:</h2>
+        <p>{{ text|upper }}</p>
+        
+        <!-- wordcount -->
+        <h2>Wordcount:</h2>
+        <p>{{ sentence|wordcount }}</p>
+        
+</body>
+</html>

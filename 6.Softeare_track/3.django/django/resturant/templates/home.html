@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+<div class="container">
+    <div class="row justify-content-center align-items-center">
+        <div class="col-md-6 py-5 text-center">
+            <h1 class="display-4">Welcome to Our Django Restaurant!</h1>
+            <p class="lead">We're delighted to have you here.</p>
+        </div>
+        <div class="col-md-6 py-5 text-center">
+            <img class="img-fluid" src="{% static 'image_10.webp' %}" alt="Restaurant Image">
+        </div>
+    </div>
+</div>
+
+{% endblock %}

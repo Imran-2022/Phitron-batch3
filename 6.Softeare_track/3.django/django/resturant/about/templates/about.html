@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+<div class="container">
+    <div class="row justify-content-center align-items-center">
+        <div class="col-md-6 py-5 text-center">
+            <h1 class="display-4 mb-4">Welcome to the About Page!</h1>
+            <p class="lead mb-4">It's great to see you here!</p>
+            <img class="img-fluid mb-4" style="max-width: 300px;" src="{% static 'images/image_01.jpg' %}" alt="image">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Our Mission</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus placerat velit in efficitur ultricies.</p>
+                </div>
+            </div>
+            <div class="mt-4">
+                <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
