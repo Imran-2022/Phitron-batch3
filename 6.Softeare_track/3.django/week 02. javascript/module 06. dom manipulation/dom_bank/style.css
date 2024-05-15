@@ -1,0 +1,47 @@
+.amount_container{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.amount_box{
+    padding: 20px;
+    border: 1px solid gray;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgb(3, 52, 252);
+}
+
+.deposit,.total{
+    background: rgb(66, 120, 120);
+    color: white;
+}
+.widthrow{
+    background: red;
+    color: black;
+}
+.deposite_widthrow_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 50px;
+    text-align: center;
+
+}
+.btn{
+    margin-top: 10px;
+    padding: 10px 15px;
+}
+
+.input_box{
+    padding: 50px;
+    border: 1px solid gray;
+}
