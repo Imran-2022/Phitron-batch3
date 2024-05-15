@@ -1,0 +1,99 @@
+Python: https://www.interviewbit.com/python-interview-questions/
+
+# 10 python mcq : 
+
+1.In Python, which keyword is used to define a class?
+a) class
+b) def
+c) obj
+d) cls
+
+ans : a
+
+2.What is the purpose of the __init__ method in Python classes?
+a) To define class variables
+b) To create an object of the class
+c) To initialize instance variables of the class
+d) To define static methods
+
+ans : c
+
+3.How is inheritance implemented in Python?
+a) Using the extends keyword
+b) Using the inherits keyword
+c) Using the inherit keyword
+d) Using the class name inside parentheses
+
+ans : d
+
+4.Which method is used to access the superclass in Python?
+a) super()
+b) parent()
+c) superclass()
+d) base()
+
+ans : a
+
+5.What does the self keyword represent in Python class methods?
+a) It refers to the current class object
+b) It refers to the superclass object
+c) It refers to the current instance of the class
+d) It refers to a static variable
+
+ans : c
+
+6.Which of the following is true about Python's multiple inheritance?
+a) Python does not support multiple inheritance
+b) Python uses interfaces for multiple inheritance
+c) Python allows a class to inherit from multiple parent classes
+d) Python restricts inheritance to a single superclass
+
+ans : c
+
+7.What is method overriding in Python?
+a) Creating multiple methods with the same name but different parameters
+b) Changing the return type of a method
+c) Redefining a method in a subclass that is already defined in the superclass
+d) Accessing private methods of a class
+
+ans : c
+
+8.Which access modifier in Python is used to define private variables and methods?
+a) public
+b) protected
+c) private
+d) hidden
+
+ans : c
+
+9.How can you create an instance of a class in Python?
+a) Using the new keyword
+b) Using the create method
+c) Using the class name followed by parentheses
+d) Using the init method
+
+ans : c
+
+10.How are class variables accessed in Python?
+a) Using the self keyword
+b) Using the class name followed by a dot (.)
+c) Using the cls keyword
+d) Class variables cannot be accessed outside the class
+
+ans : b
+
+11.How are instance variables defined in Python?
+a) Inside a class method
+b) Outside any method, directly within the class
+c) Using the self keyword
+d) Inside a constructor method
+
+ans : c
+
+12.What is the purpose of the __str__ method in Python?
+a) To convert an object to a string representation
+b) To define static methods
+c) To access private variables
+d) To create a new object
+
+ans : a

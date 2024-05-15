@@ -1,0 +1,161 @@
+OOP: https://www.interviewbit.com/oops-interview-questions/
+
+# 20 oop mcq : 
+
+1.How is data hiding achieved in OOP?
+a) By using public methods to access private data
+b) By using private methods to access public data
+c) By declaring variables as public
+d) By declaring variables as private and providing public methods to access them
+ans : d
+
+2.What is the difference between a class and an object?
+a) A class is a blueprint, an object is an instance of a class.
+b) A class cannot have methods, an object can.
+c) A class is created at runtime, an object is created at compile time.
+d) A class can only have variables, an object can only have methods.
+ans : a 
+
+3.What is a constructor in Python?
+a) A special method that is automatically called when an object is created
+b) A method used to compare objects
+c) A method used to initialize class variables
+d) A method used to delete objects
+
+ans : a 
+
+4.What is the difference between method overloading and method overriding?
+a) Method overloading occurs within the same class, method overriding occurs in different classes.
+b) Method overloading involves changing the return type, method overriding does not.
+c) Method overloading involves creating new methods, method overriding involves modifying existing methods.
+d) Method overloading occurs in inheritance, method overriding does not.
+
+ans : c 
+
+5.Which of the following is true about constructors in OOP?
+a) They have a return type.
+b) They are used to create objects.
+c) They can be inherited.
+d) They are optional in a class.
+
+ans : b 
+
+6.What is method overloading in OOP?
+a) Defining multiple methods with the same name but different parameters
+b) Defining a method inside another method
+c) Calling a method from within the same class
+d) Changing the return type of a method
+
+ans : a
+
+7.Polymorphism in OOP allows:
+a) Objects to take on multiple forms
+b) Objects to access private methods of other objects
+c) Objects to inherit from multiple classes
+d) Objects to be created without using constructors
+
+ans : a
+
+8.What is the purpose of encapsulation in OOP?
+a) To hide data from other classes
+b) To expose all class members publicly
+c) To make classes incompatible with each other
+d) To prevent inheritance
+
+ans : a
+
+9.Inheritance in OOP allows a class to:
+a) Access private members of another class
+b) Extend the functionality of another class
+c) Hide the implementation details of a class
+d) Create multiple instances of itself
+
+ans : b
+
+10.What does OOP stand for?
+a) Object-Oriented Programming
+b) Operation-Oriented Programming
+c) Overload-Oriented Programming
+d) Objective-Oriented Programming
+
+ans : a
+
+11.Which of the following is not a pillar of OOP?
+a) Encapsulation
+b) Inheritance
+c) Polymorphism
+d) Iteration
+
+ans : d
+
+12.How is an object different from a class in OOP?
+a) An object is a blueprint, while a class is an instance.
+b) An object contains methods, while a class contains data.
+c) An object is an instance of a class, representing a specific entity.
+d) An object cannot have properties, while a class can.
+
+ans : c
+
+13.What are methods in OOP?
+a) Data members of a class.
+b) Variables that store object states.
+c) Functions that operate on objects of a class.
+d) Constructors used to initialize objects.
+
+ans : c
+
+14.How is abstraction related to OOP?
+a) It involves creating objects from classes.
+b) It refers to the process of data hiding.
+c) It allows for the creation of complex data types.
+d) It hides the complex implementation details of an object and only exposes the necessary features.
+
+ans : d
+
+15.Can a class be instantiated without a constructor?
+a) Yes, a class can always be instantiated without a constructor.
+b) No, a constructor is required to instantiate a class.
+c) Only if the class has static methods.
+d) It depends on the programming language.
+
+ans : a
+
+16.How does polymorphism enhance code reusability?
+a) By allowing objects to access private methods.
+b) By enabling objects to take multiple forms and respond to the same message differently.
+c) By encapsulating data within objects.
+d) By defining new classes based on existing classes.
+
+ans : b
+
+17.How does inheritance promote code reuse in OOP?
+a) By allowing one class to access private members of another class.
+b) By preventing the creation of new classes.
+c) By allowing a subclass to inherit properties and behaviors from a superclass.
+d) By restricting access to class members.
+
+ans : c
+
+18.How does encapsulation improve code maintainability?
+a) By exposing all class members publicly.
+b) By making all variables global.
+c) By hiding the internal state of an object and providing controlled access through methods.
+d) By allowing objects to access private variables directly.
+
+ans : c
+
+19.How does abstraction simplify complex systems?
+a) By exposing all implementation details.
+b) By allowing objects to directly access each other's data.
+c) By hiding implementation details and providing a simplified interface.
+d) By restricting the creation of new classes.
+
+ans : d
+
+20.What is the purpose of interfaces in OOP?
+a) To define a blueprint for objects.
+b) To provide a way to achieve multiple inheritances.
+c) To define a contract for implementing classes.
+d) To restrict access to class members.
+
+ans : c
