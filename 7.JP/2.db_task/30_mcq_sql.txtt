@@ -1,0 +1,264 @@
+# link1 : https://www.simplilearn.com/top-sql-interview-questions-and-answers-article
+# link2 : https://www.edureka.co/blog/interview-questions/sql-interview-questions
+
+1.Which SQL statement is used to retrieve data from a database?
+
+a) GET
+b) OPEN
+c) EXTRACT
+d) SELECT
+
+ans : d 
+
+2.Which command is used to remove all records from a table but not the table itself?
+
+a) DELETE
+b) REMOVE
+c) TRUNCATE
+d) DROP
+
+ans : c 
+
+3.How do you add a column to an existing table in SQL?
+
+a) ALTER TABLE table_name ADD column_name datatype
+b) MODIFY TABLE table_name ADD column_name datatype
+c) ADD COLUMN table_name column_name datatype
+d) ADD table_name column_name datatype
+
+ans : a 
+
+4.What is a primary key?
+
+a) A key used to identify a record uniquely in a table
+b) A key used to create an index
+c) A key used to establish a foreign key
+d) A key used to increase the performance of queries
+
+ans : a 
+
+5.Which SQL clause is used to filter the results of a query?
+
+a) WHERE
+b) ORDER BY
+c) HAVING
+d) FILTER
+
+ans : a 
+
+6.Which SQL function is used to count the number of rows in a table?
+
+a) COUNT()
+b) SUM()
+c) AVG()
+d) NUMBER()
+
+ans : a 
+
+7.How do you select all the columns from a table named "employees"?
+
+a) SELECT * FROM employees
+b) SELECT employees.*
+c) SELECT ALL FROM employees
+d) SELECT columns FROM employees
+
+ans : a 
+
+8.What is the purpose of the GROUP BY clause?
+
+a) To group rows that have the same values into summary rows
+b) To sort rows
+c) To filter rows
+d) To join tables
+
+ans : a 
+
+9.Which keyword is used to sort the result-set in ascending order by default?
+
+a) ORDER BY
+b) SORT BY
+c) GROUP BY
+d) ARRANGE BY
+
+ans : a 
+
+10.What does the SQL INNER JOIN keyword do?
+
+a) Combines rows from two or more tables based on a related column between them
+b) Combines all rows from two or more tables
+c) Combines rows when there is a match in both tables
+d) Combines rows when there is a match in either table
+
+ans : a 
+
+11.Which command is used to change the structure of a database table?
+
+a) ALTER TABLE
+b) MODIFY TABLE
+c) CHANGE TABLE
+d) UPDATE TABLE
+
+ans : a 
+
+12.Which SQL statement is used to remove a table from a database?
+
+a) DELETE TABLE
+b) DROP TABLE
+c) REMOVE TABLE
+d) ERASE TABLE
+
+ans : b
+
+13.What is the correct SQL statement to insert a new record into the "students" table?
+
+a) INSERT INTO students VALUES ('John', 'Doe', 25)
+b) ADD INTO students ('John', 'Doe', 25)
+c) INSERT VALUES ('John', 'Doe', 25) INTO students
+d) ADD RECORD INTO students ('John', 'Doe', 25)
+
+ans : a 
+
+14.How do you update the age of all employees to 30 in the "employees" table?
+
+a) UPDATE employees SET age = 30
+b) MODIFY employees SET age = 30
+c) SET age = 30 IN employees
+d) CHANGE employees AGE TO 30
+
+ans : a 
+
+15.Which SQL clause is used to restrict the rows returned by a query based on a condition?
+
+a) WHERE
+b) RESTRICT
+c) CONDITION
+d) LIMIT
+
+ans : a 
+
+16.What is a foreign key in SQL?
+
+a) A key that uniquely identifies a record in another table
+b) A key that uniquely identifies a record within its table
+c) A key that establishes a relationship between tables
+d) A key used to encrypt data
+
+ans : c 
+
+17.Which SQL keyword is used to retrieve unique records?
+
+a) DISTINCT
+b) UNIQUE
+c) DIFFERENT
+d) SEPARATE
+
+ans : a 
+
+18.How do you rename a column in an SQL table?
+
+a) ALTER TABLE table_name RENAME COLUMN old_name TO new_name
+b) MODIFY TABLE table_name CHANGE COLUMN old_name TO new_name
+c) RENAME COLUMN old_name TO new_name IN table_name
+d) UPDATE TABLE table_name SET old_name = new_name
+
+ans : a 
+
+19.Which function is used to get the current date in SQL?
+
+a) NOW()
+b) CURRENT_DATE()
+c) GETDATE()
+d) TODAY()
+
+ans : b
+
+20.What is the purpose of the SQL HAVING clause?
+ 
+a) To filter groups of rows based on a condition
+b) To filter individual rows based on a condition
+c) To join tables
+d) To sort rows
+
+ans : a 
+
+21.Which command is used to create a new database in SQL?
+
+a) CREATE DATABASE
+b) NEW DATABASE
+c) ADD DATABASE
+d) MAKE DATABASE
+
+ans : a
+
+22.How do you delete records from a table without removing the table structure?
+
+a) DELETE
+b) TRUNCATE
+c) REMOVE
+d) DROP
+
+ans : a 
+
+23.Which SQL statement is used to update data in a database?
+
+a) UPDATE
+b) CHANGE
+c) MODIFY
+d) SET
+
+ans : a 
+
+24.How do you retrieve all records from the "products" table where the price is greater than 100?
+
+a) SELECT * FROM products WHERE price > 100
+b) SELECT * FROM products HAVING price > 100
+c) SELECT * FROM products FILTER price > 100
+d) SELECT * FROM products ORDER BY price > 100
+
+ans : a 
+
+25.Which SQL function returns the largest value of the selected column?
+
+a) MAX()
+b) MIN()
+c) GREATEST()
+d) TOP()
+
+ans : a 
+
+26.How do you find the average value of a numeric column in SQL?
+
+a) AVG()
+b) MEAN()
+c) SUM()
+d) COUNT()
+
+ans : a 
+
+27.How do you retrieve only the first 10 records from a table?
+
+a) SELECT * FROM table_name LIMIT 10
+b) SELECT FIRST 10 * FROM table_name
+c) SELECT TOP 10 * FROM table_name
+d) SELECT * FROM table_name FETCH 10
+
+ans : a  
+
+29.How do you retrieve records that do not match a specified pattern in SQL?
+
+a) NOT LIKE
+b) NOT MATCH
+c) EXCLUDE
+d) DOES NOT LIKE
+
+ans : a 
+
+30.Which SQL keyword is used to specify a range of values to filter the result set?
+
+a) BETWEEN
+b) WITHIN
+c) RANGE
+d) LIMIT
+
+ans : a 
+
