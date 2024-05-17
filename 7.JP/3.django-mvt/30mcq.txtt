@@ -1,0 +1,242 @@
+# https://www.geeksforgeeks.org/django-interview-questions/
+
+1.Which component of Django MVT handles database interactions?
+A) View
+B) Template
+C) Model
+D) URLconf
+
+ans : c 
+
+2.In Django, what is the purpose of the 'view'?
+A) To define the structure of the database
+B) To handle the logic and data processing
+C) To render the user interface
+D) To map URLs to functions
+
+ans : b 
+
+3.Which Django component is responsible for generating the HTML?
+A) Model
+B) View
+C) Template
+D) URLconf
+
+ans : c 
+
+4.What is the function of models.Model in Django?
+A) It defines URL patterns
+B) It renders HTML templates
+C) It defines the structure of the database table
+D) It handles HTTP requests
+
+ans : c 
+
+5.In Django, how do you map a URL to a view function?
+A) Using the Template
+B) Using the Model
+C) Using the URLconf
+D) Using the Admin interface
+
+ans : c 
+
+6.Which Django component uses the HTML language?
+A) Model
+B) View
+C) Template
+D) URLconf
+
+ans : c
+
+7.How do you access the data of a model in a Django view?
+A) Using the Template
+B) Using QuerySet
+C) Using URLconf
+D) Using the Admin interface
+
+ans : b
+
+8.Which of the following is a Django field type for storing text data?
+A) IntegerField
+B) CharField
+C) DateField
+D) BooleanField
+
+ans : d 
+
+9.Which template language does Django use by default?
+A) Jinja2
+B) Mako
+C) Django Template Language (DTL)
+D) Mustache
+
+ans : c 
+
+10.What is the main file where URL patterns are defined in a Django project?
+A) views.py
+B) models.py
+C) urls.py
+D) settings.py
+
+ans : c 
+
+11.Which of the following commands is used to create a new Django project?
+A) django-admin startproject
+B) django-admin createproject
+C) django-admin initproject
+D) django-admin newproject
+
+ans : a 
+
+12.Which command is used to create a new Django app within a project?
+A) django-admin startapp
+B) django-admin createapp
+C) django-admin initapp
+D) django-admin newapp
+
+ans : a 
+
+13.In Django, where do you register your models so that they can be managed via the admin interface?
+A) views.py
+B) urls.py
+C) admin.py
+D) settings.py
+
+ans : c 
+
+14.How do you define a primary key in a Django model?
+A) By setting primary_key=True on a field
+B) By naming a field id
+C) By creating an index on a field
+D) By using the ForeignKey field
+
+ans : a 
+
+15.Which method is used to save an object to the database in Django?
+A) save()
+B) commit()
+C) store()
+D) create()
+
+ans : a 
+
+16.Which Django component is responsible for handling HTTP requests and returning HTTP responses?
+A) Model
+B) View
+C) Template
+D) Middleware
+
+ans : b 
+
+17.What is the file extension for Django template files?
+A) .html
+B) .djhtml
+C) .dtl
+D) .tmpl
+
+ans : a 
+
+18.Which of the following is not a valid Django field type?
+A) CharField
+B) IntegerField
+C) BooleanField
+D) ByteField
+
+ans : d 
+
+19.In Django, which decorator is used to restrict access to a view based on user authentication?
+A) @login_required
+B) @authenticated
+C) @restrict_access
+D) @user_login
+
+ans : a 
+
+20.What is the purpose of context in Django views?
+A) To store the view logic
+B) To pass data to templates
+C) To define URL patterns
+D) To configure settings
+
+ans : b 
+
+21.Which function is used to render templates in Django views?
+A) display()
+B) render()
+C) show()
+D) template()
+
+ans : b 
+
+22.What is the purpose of the forms.py file in a Django app?
+A) To define models
+B) To define views
+C) To define forms
+D) To define URL patterns
+
+ans : c 
+
+23.Which setting must be configured to connect Django to a database?
+A) DATABASES
+B) DB_CONNECTION
+C) DATABASE_URI
+D) DB_SETTINGS
+
+ans : a 
+
+24.What is the default database engine for Django projects?
+A) PostgreSQL
+B) MySQL
+C) SQLite
+D) Oracle
+
+ans : c 
+
+25.How do you run database migrations in Django?
+A) manage.py migrate
+B) manage.py makemigrations
+C) manage.py runmigrations
+D) manage.py syncdb
+
+ans : a 
+
+26.Which command creates new migrations based on model changes in Django?
+A) manage.py migrate
+B) manage.py makemigrations
+C) manage.py runmigrations
+D) manage.py syncdb
+
+ans : b 
+
+27.Which of the following is not a valid HTTP method handled by Django views?
+A) GET
+B) POST
+C) DELETE
+D) UPDATE
+
+ans : d 
+
+28.What is the purpose of the settings.py file in a Django project?
+A) To define URL patterns
+B) To configure project settings
+C) To define models
+D) To define views
+
+ans : b 
+
+29.Which template tag is used to include another template inside a template in Django?
+A) {% include %}
+B) {% load %}
+C) {% import %}
+D) {% render %}
+
+ans : a 
+
+30.How do you serve static files in a Django project?
+A) By configuring the STATIC_URL setting
+B) By placing them in the templates directory
+C) By placing them in the media directory
+D) By using the admin interface
+
+ans : a 
+
