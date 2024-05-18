@@ -1,0 +1,270 @@
+1.Which class is used to create a simple view that maps to Django's standard class-based views?
+
+A) APIView
+B) ViewSet
+C) GenericView
+D) SimpleView
+
+ans : a 
+
+2.What is the primary purpose of the Django Rest Framework?
+
+A) To create web applications
+B) To create APIs
+C) To handle database migrations
+D) To manage user authentication
+
+ans : b 
+
+3.Which of the following is used to serialize Django models in DRF?
+
+A) ModelSerializer
+B) FormSerializer
+C) TemplateSerializer
+D) ViewSerializer
+
+ans : a
+
+4.How do you include authentication classes in a DRF view?
+
+A) authentication_classes = [<AuthClass>]
+B) auth_classes = [<AuthClass>]
+C) authentication = [<AuthClass>]
+D) auth_methods = [<AuthClass>]
+
+ans : a
+
+5. Which of these is NOT a standard HTTP method used in DRF views?
+
+A) GET
+B) POST
+C) PATCH
+D) COPY
+
+ans : d
+
+6.What is the default format of the response provided by DRF if not specified?
+
+A) XML
+B) JSON
+C) HTML
+D) CSV
+
+ans : b
+
+7.Which decorator is used to apply view-level permission in DRF?
+
+A) @permission_required
+B) @allowed_permissions
+C) @api_permission
+D) @permission_classes
+
+ans : d
+
+8. What is the purpose of the Serializer class in DRF?
+
+A) To handle database migrations
+B) To manage user sessions
+C) To validate and convert data
+D) To render HTML templates
+
+ans : c
+
+9. Which DRF component is used to handle pagination in API responses?
+
+A) PageHandler
+B) PaginationSerializer
+C) Paginator
+D) Pagination
+
+ans : d
+
+10.What method would you override to customize the creation of an object in a ModelViewSet?
+
+A) create_object
+B) save_object
+C) create
+D) save
+
+ans : c
+
+11.In DRF, how can you define a nested serializer?
+
+A) By using NestedSerializer class
+B) By including another serializer as a field in a serializer
+C) By using SubSerializer class
+D) By defining serialize_nested method
+
+ans : b
+
+12.Which of the following is NOT a type of view provided by DRF?
+
+A) ViewSet
+B) APIView
+C) TemplateView
+D) GenericView
+
+ans : c
+
+13.How do you specify the fields to be included in a ModelSerializer?
+
+A) By defining __all__ attribute
+B) By defining fields attribute
+C) By defining included_fields attribute
+D) By defining serialized_fields attribute
+
+ans : b
+
+14.Which setting controls the global default renderer classes in DRF?
+
+A) DEFAULT_RENDERERS
+B) RENDERER_CLASSES
+C) DEFAULT_RENDERER_CLASSES
+D) GLOBAL_RENDERERS
+
+ans : c
+
+15.Which authentication scheme is NOT built into DRF?
+
+A) BasicAuthentication
+B) SessionAuthentication
+C) OAuth2Authentication
+D) TokenAuthentication
+
+ans : c
+
+16.How can you define a custom action in a ViewSet?
+
+A) By using @action decorator
+B) By using @custom_action decorator
+C) By using @view_action decorator
+D) By using @method decorator
+
+ans : a
+
+17. Which method would you use to validate data within a DRF serializer?
+
+A) validate_data
+B) is_valid
+C) clean_data
+D) validate_input
+
+ans : b
+
+18.What class is commonly extended to create custom permissions in DRF?
+
+A) BasePermission
+B) PermissionClass
+C) AuthPermission
+D) CustomPermission
+
+ans : a
+
+19.Which setting allows you to set default pagination in DRF?
+
+A) PAGINATION_SETTINGS
+B) DEFAULT_PAGINATION
+C) PAGE_SIZE
+D) DEFAULT_PAGINATION_CLASS
+
+ans : d
+
+20.How do you enable CORS headers in a Django application using DRF?
+
+A) By installing and configuring django-cors-headers
+B) By setting CORS_ENABLED = True in settings.py
+C) By adding CorsMiddleware to MIDDLEWARE
+D) By configuring CORS class in views
+
+ans : a
+
+21.What is the default status code returned by a successful POST request in DRF?
+
+A) 200 OK
+B) 201 Created
+C) 202 Accepted
+D) 204 No Content
+
+ans : b
+
+22.Which method would you override to customize the update behavior in a ModelViewSet?
+
+A) update_object
+B) modify_object
+C) change
+D) update
+
+ans : d
+
+23.What attribute would you set to define the URL patterns in a Router?
+
+A) routes
+B) patterns
+C) urlpatterns
+D) urls
+
+ans : d
+
+24. How do you restrict access to a DRF view to authenticated users only?
+
+A) permission_classes = [IsAuthenticated]
+B) permissions = [IsAuthenticated]
+C) auth_classes = [IsAuthenticated]
+D) allowed_users = [IsAuthenticated]
+
+ans : a
+
+25. Which method is used to parse incoming request data in DRF?
+
+A) parse_data
+B) extract_data
+C) get_data
+D) parse
+
+ans : d
+
+26. Which of the following is a DRF renderer class?
+
+A) HTMLRenderer
+B) CSVRenderer
+C) PDFRenderer
+D) XMLRenderer
+
+ans : a
+
+27.What is the purpose of the DefaultRouter class in DRF?
+
+A) To manage default settings
+B) To automatically create URL conf
+C) To handle default authentication
+D) To set up default permissions
+
+ans : b
+
+28.Which of the following classes is used to handle token-based authentication in DRF?
+
+A) TokenHandler
+B) TokenAuthenticator
+C) TokenAuthentication
+D) TokenAuth
+
+ans : c
+
+29.What is the purpose of the throttle_classes attribute in a DRF view?
+
+A) To limit the number of API requests
+B) To handle user permissions
+C) To manage API response format
+D) To authenticate users
+
+ans : a
+
+30.How can you add a schema view to your DRF project?
+
+A) By using get_schema_view from rest_framework.schemas
+B) By defining a schema attribute in views
+C) By setting SCHEMA_VIEW in settings.py
+D) By adding SchemaMixin to views
+
+ans : a 
+
