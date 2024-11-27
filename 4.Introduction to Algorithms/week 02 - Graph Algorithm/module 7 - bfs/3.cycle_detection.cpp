@@ -1,3 +1,5 @@
+// parents multiple time visited hle kinto cycle hoscche na...! onno kau visited hle cycle..............!
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -43,7 +45,7 @@ int main()
     //     cout << "No cycle detected";
     // }
 
-    //  jodi muliple connected component thake ?
+    //  jodi muliple connected component thake ? tai loop lagbe.
 
     bool isCycle = false;
     for (int i = 1; i <= n; i++)

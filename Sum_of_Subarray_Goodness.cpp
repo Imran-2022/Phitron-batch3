@@ -8,26 +8,14 @@ using namespace std;
 #define vi vector<int>
 
 void start_here(){
-    int n;
-    cin>>n;
-    vi vt(n);
-    fl(i,0,n)cin>>vt[i];
-    int m;
-    cin>>m;
-    vi vt2(m);
-    fl(i,0,m)cin>>vt2[i];
-    int idx;
-    cin>>idx;
-    vt.insert(vt.begin()+idx,vt2.begin(),vt2.end());
-    for(auto x:vt)cout<<x<<" ";
-    cout<<endl;
+    
 }
 
 int main()
 {
     ios::sync_with_stdio(false); cin.tie(0); cout.tie(0);
     int t=1;
-    // cin>>t;
+    cin>>t;
     while(t--)start_here();
     return 0;
 }

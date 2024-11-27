@@ -12,15 +12,18 @@ void start_here(){
     cin>>n;
     vi vt(n);
     fl(i,0,n)cin>>vt[i];
-    int m;
-    cin>>m;
-    vi vt2(m);
-    fl(i,0,m)cin>>vt2[i];
-    int idx;
-    cin>>idx;
-    vt.insert(vt.begin()+idx,vt2.begin(),vt2.end());
-    for(auto x:vt)cout<<x<<" ";
-    cout<<endl;
+    int cnt_pos=0,cnt_neg=0;
+    fl(i,0,n){
+        if(vt[i]>=1)cnt_pos++;
+        else if(vt[i]<0) cnt_neg++;
+    }
+    int sm=cnt_pos-cnt_neg;
+    sm=abs(sm);
+    int op=0;
+    if(sm%2==0)op=sm/2;
+    else op=(sm/2)+1;
+    cout<<op<<endl;
+
 }
 
 int main()

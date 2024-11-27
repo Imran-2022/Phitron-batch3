@@ -1,0 +1,3 @@
+- how to handle duplicate in BST?
+- just keep track of count ! 
+- and l<, and r> hbe !! 

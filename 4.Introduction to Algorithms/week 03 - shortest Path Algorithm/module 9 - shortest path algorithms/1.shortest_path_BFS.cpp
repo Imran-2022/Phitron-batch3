@@ -13,16 +13,13 @@ void bfs(int s)
     q.push(s);
     visited[s] = true;
     parent[s]=-1;
-
     while (!q.empty())
     {
         int u = q.front();
         q.pop();
-
         for (int v : adj[u])
         {
-            if (visited[v] == true)
-                continue;
+            if (visited[v] == true)continue;
             q.push(v);
             visited[v]=true;
             level[v]=level[u]+1;
@@ -42,7 +39,6 @@ int main()
         adj[v].push_back(u);
         adj[u].push_back(v);
     }
-
     int s,d;
     cin>>s>>d;
     bfs(s);
