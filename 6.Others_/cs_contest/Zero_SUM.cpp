@@ -12,18 +12,13 @@ void start_here(){
     cin>>n;
     vi vt(n);
     fl(i,0,n)cin>>vt[i];
-    int cnt_pos=0,cnt_neg=0;
-    fl(i,0,n){
-        if(vt[i]>=1)cnt_pos++;
-        else if(vt[i]<0) cnt_neg++;
-    }
-    int sm=cnt_pos-cnt_neg;
+    ll sm=accumulate(all(vt),0ll);
     sm=abs(sm);
-    int op=0;
-    if(sm%2==0)op=sm/2;
-    else op=(sm/2)+1;
-    cout<<op<<endl;
-
+    if(sm%2==0){
+        cout<<(sm/2)<<endl;
+        return;
+    }
+    cout<<((sm+1)/2)<<endl;
 }
 
 int main()

@@ -1,1 +1,0 @@
-- [Hacker rank Contest (Assignment 01)](https://www.hackerrank.com/contests/assignment-01-a-basic-data-structures-a-batch-03/challenges)

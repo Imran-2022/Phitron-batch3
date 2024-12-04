@@ -9,7 +9,6 @@ int lcs(string a,int n,string b,int m){
 
         int ans=lcs(a,n-1,b,m-1);
         return ans+1;
-
     }else{
 
         int ans1=lcs(a,n-1,b,m);

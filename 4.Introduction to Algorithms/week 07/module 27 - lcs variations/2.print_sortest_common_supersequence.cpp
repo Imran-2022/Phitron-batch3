@@ -60,6 +60,7 @@ int main()
             j--;
         }
     }
+    
     while (i != 0)
     {
         ans += a[i - 1];

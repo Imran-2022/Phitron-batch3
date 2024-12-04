@@ -8,6 +8,7 @@ using namespace std;
 #define vi vector<int>
 
 void start_here(){
+
     int n;
     cin>>n;
     vi vt(n);
@@ -16,11 +17,12 @@ void start_here(){
     cin>>m;
     vi vt2(m);
     fl(i,0,m)cin>>vt2[i];
-    int idx;
-    cin>>idx;
-    vt.insert(vt.begin()+idx,vt2.begin(),vt2.end());
+    int k;
+    cin>>k;
+    vt.insert(vt.begin()+k,all(vt2));
     for(auto x:vt)cout<<x<<" ";
     cout<<endl;
+
 }
 
 int main()

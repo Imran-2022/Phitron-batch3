@@ -1,0 +1,6 @@
+- string,substring,subsequence.
+- lcs top_down
+- lcs memoization
+- lcs buttom_up approach
+- print lcs 
+- print longest common substring 

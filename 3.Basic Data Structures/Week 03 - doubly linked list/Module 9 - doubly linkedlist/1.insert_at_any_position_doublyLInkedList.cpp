@@ -43,8 +43,9 @@ void insert_at_any_position(Node *head, int pos, int val)
     };
     newNode->next=tmp->next;
     tmp->next=newNode;
-    newNode->next->pre=newNode;
     newNode->pre=tmp;
+    newNode->next->pre=newNode;
+
 }
 
 int main()

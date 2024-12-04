@@ -8,14 +8,23 @@ using namespace std;
 #define vi vector<int>
 
 void start_here(){
-    
+    int n;
+    cin>>n;
+    vi vt(n);
+    fl(i,0,n)cin>>vt[i];
+    set<int>st(all(vt));
+    if(st.size()!=vt.size()){
+        cout<<"YES"<<endl;
+        return;
+    }
+    cout<<"NO"<<endl;
 }
 
 int main()
 {
     ios::sync_with_stdio(false); cin.tie(0); cout.tie(0);
     int t=1;
-    cin>>t;
+    // cin>>t;
     while(t--)start_here();
     return 0;
 }

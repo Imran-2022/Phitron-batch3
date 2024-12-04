@@ -24,7 +24,7 @@ int main()
     //     cout<<it->first<<" " << it->second<<endl;
     // }
 
-    if(mp.count("ssdd"))cout<<"YES"<<endl;
+    if(mp.count("imran")>88)cout<<"YES"<<endl;
     else cout<<"NO"<<endl;
 
     return 0;

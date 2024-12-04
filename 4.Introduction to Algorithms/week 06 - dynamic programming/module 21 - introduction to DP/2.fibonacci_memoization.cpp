@@ -22,8 +22,9 @@ int main()
     for(ll i=0;i<=n;i++){
         save[i]=-1;
     }
-
+    cout<<endl;
     cout<<fibo(n)<<endl;
+    for(auto x:save)cout<<x<<" ";
     
     return 0;
 }

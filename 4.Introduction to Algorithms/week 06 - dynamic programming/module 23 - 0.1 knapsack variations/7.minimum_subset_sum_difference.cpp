@@ -48,6 +48,7 @@ int main()
             }
         }
     }
+
     int ans = INT_MAX;
     for (int val : v)
     {
@@ -56,6 +57,7 @@ int main()
         ans = min(ans, abs(s1 - s2));
     }
     cout << ans << endl;
+    
     return 0;
 }
 
