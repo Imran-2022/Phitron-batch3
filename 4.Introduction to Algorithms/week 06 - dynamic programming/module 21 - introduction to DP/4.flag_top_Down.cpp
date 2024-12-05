@@ -3,7 +3,7 @@ using namespace std;
 const int N=1e5+5;
 int dp[N];
 
-int solve(int a[],int n){
+int solve(int a,int n){
     if(n==1){
         return 0;
     }
